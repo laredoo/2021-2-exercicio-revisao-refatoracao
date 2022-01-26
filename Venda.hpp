@@ -11,11 +11,14 @@ class Venda{
 
     public:
         void print();
+        std::string getDescricao();
+        std::string getCliente();
+    
     private:
         double VALOR;
-        std::string descricao;
-        std::Especialista esp;
-        std::string cliente;
+        std::string Descricao;
+        std::Especialista Esp;
+        std::string Cliente;
 };
 
 #endif
