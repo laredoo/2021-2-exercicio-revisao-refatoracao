@@ -8,14 +8,21 @@ const ble ValorBONIFICACAO = 15.0;
 
 class Gerente {
     public:
+        
+        double getSalarioBase();
+        std::string getIdade();
+        std::string getNome();
+        int getRgFunc();
+        double getBonificacao();
+        
         void print();
 
         double calcula_BONIFICACAO_GERENTE(int numTOTALVendas);
     
     private:
         double SalarioBase; // valor mínimo recebido pelo funcionário
-        string IDADE;
-        string nome;
+        std::string Idade;
+        std::string Nome;
         int rgFunc;
         double bonificacao;
 };
